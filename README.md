@@ -1,5 +1,8 @@
 # IsType
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53284b31271e4050a66ad0974f1b2e03)](https://www.codacy.com/app/konfirm/node-is-type?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=konfirm/node-is-type&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/konfirm/node-is-type.svg?branch=master)](https://travis-ci.org/konfirm/node-is-type)
+
 Simple Object type/name checks
 
 ## Getting started
@@ -30,7 +33,7 @@ The `IsType` library provides the same API as the [`Type`](https://github.com/ko
 Detect any type using its name right after `is`, for example `isObject` or `isMyCustomObject`.
 It takes the prototype chain into consideration for objects, except for the built-in simple types (`String`, `Number`, `Boolean`) and `null` values, which are not considered to be objects by `IsType`.
 
-```
+```js
 const Type = require('@konfirm/is-type');
 
 console.log(Type.isObject('foo')); //  false
