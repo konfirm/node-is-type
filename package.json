@@ -1,0 +1,43 @@
+{
+  "name": "@konfirm/is-type",
+  "version": "0.0.0",
+  "description": "Simple Object type/name checks",
+  "main": "source/type.js",
+  "scripts": {
+    "test": "lab -vclr",
+    "test-coverage-html": "lab -clr html -o report.html"
+  },
+  "keywords": [
+    "is*",
+    "type",
+    "typeof",
+    "instanceof",
+    "type name",
+    "object name",
+    "function name",
+    "isString",
+    "isNumber",
+    "isArray",
+    "isObject",
+    "isPromise",
+    "isWeakMap",
+    "isMap"
+  ],
+  "homepage": "https://github.com/konfirm/node-type",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konfirm/node-type.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konfirm/node-type/issues"
+  },
+  "author": "Rogier Spieker <rogier@konfirm.eu>",
+  "license": "MIT",
+  "devDependencies": {
+    "@konfirm/labrat": "^1.1.0",
+    "eslint-config-strict": "^14.0.1"
+  },
+  "dependencies": {
+    "@konfirm/type": "^1.0.1"
+  }
+}
