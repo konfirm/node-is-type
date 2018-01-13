@@ -35,8 +35,9 @@
   "license": "MIT",
   "devDependencies": {
     "@konfirm/labrat": "^1.1.0",
-    "@konfirm/type": "^1.0.2",
     "eslint-config-strict": "^14.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@konfirm/type": "^1.0.2"
+  }
 }
