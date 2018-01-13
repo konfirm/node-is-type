@@ -23,13 +23,13 @@
     "isWeakMap",
     "isMap"
   ],
-  "homepage": "https://github.com/konfirm/node-type",
+  "homepage": "https://github.com/konfirm/node-is-type",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konfirm/node-type.git"
+    "url": "https://github.com/konfirm/node-is-type.git"
   },
   "bugs": {
-    "url": "https://github.com/konfirm/node-type/issues"
+    "url": "https://github.com/konfirm/node-is-type/issues"
   },
   "author": "Rogier Spieker <rogier@konfirm.eu>",
   "license": "MIT",
