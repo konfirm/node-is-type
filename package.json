@@ -1,6 +1,6 @@
 {
   "name": "@konfirm/is-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Object type/name checks",
   "main": "source/type.js",
   "scripts": {
@@ -35,9 +35,8 @@
   "license": "MIT",
   "devDependencies": {
     "@konfirm/labrat": "^1.1.0",
+    "@konfirm/type": "^1.0.2",
     "eslint-config-strict": "^14.0.1"
   },
-  "dependencies": {
-    "@konfirm/type": "^1.0.1"
-  }
+  "dependencies": {}
 }
