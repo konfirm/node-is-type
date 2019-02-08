@@ -38,6 +38,6 @@
     "eslint-config-strict": "^14.0.1"
   },
   "dependencies": {
-    "@konfirm/type": "^1.0.3"
+    "@konfirm/type": "^1.0.4"
   }
 }
