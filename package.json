@@ -1,6 +1,6 @@
 {
   "name": "@konfirm/is-type",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Object type/name checks",
   "main": "source/type.js",
   "scripts": {
