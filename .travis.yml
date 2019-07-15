@@ -19,7 +19,7 @@ jobs:
                   branch: master
                   tags: true
               api_key:
-                  secure: Cjaq+DvSb06VvilY9VUm+Zlv+KXERygYFVL0gfTejMcjmhtqrEqF2YgSZp6I3zkcfEB+rDPNYG6Jw2+pXk7BpxXVeHcTd5HnCf31WP68syzPXtEinyfVlfw+HI78OKVuq82dRIZzQc2eyMHJQtVB9noTO7QJ+vhmhTFe/2E60rSeldSYESP5Y+k6uRQW3BinCJnEB1xeIZnIuD3q8L64lnKKhpXpsnuMtaMcRTUAlEwOGunzWF8s8yWcnpHn32sU4coc9EcqG1vjTMZuVaNuw0d9DkrAnTUXcE2ztvMUkuvP0tplNiv3pQteK2/kx1KU+f7a6Y1CXsVRw7+QdyIFb+j1JLxj7owoqVE0F88gq9GMa8QWqM4qicBGcKRF/eYEkRek1Girw6pFjNQYunvOPhSigr8HZSHqHTQclLO63BPeZVBqmhKc5mwJJ3ETHUpyRNfBsUYaFFWzjMYdV1/tavBlUgKQ7IfUONaR5aK80op3YxMj1/nQ225QxITkb0JxEvAWBya0FJJPEzIbYEZwC6zcTk55W/CpmAy0kbOsORMZVgN4LKu+k73uXWe3NP4gV/OCzFSK7Tk3aTa6boze+2wdhOm2GEP8aObmsjDIwmKc8UL90UUU2bDFWQMbeDke2NIGjtFHEmD6abRExnh4iAhRlS0bty0CJu+W0rJZzHY=
+                  secure: GWjBYuc3MHAI6UMJHamPPtMS/vSYg3AyzPMjnktj5KzntVLCrdIhjPwf+G0HhryC2dCNXrkv4wddpXgH/ihzE5frdW4Ff73rl2YPIA3KepWavYDGUw+NTDBsMQ9vxHti5n98rLaZCm3ANI5AdWsoCfRsejkRygWwL50qhBXIrvKf0Gc0EQUwiO2v7Qx9U1XAk/8ZSu0glhpvAQm/exzruilnTsSeTklZkiYKFvz5WlWXDhwKULI5p7d6jQp8lZHOK7lmx/dlzO0SmIvLWYA0zCc+22GYN028iCmiNmfW252BrfWdB+ZUkvvegQhek99UAnaqQUt2gP/bnOma4soJB6w1Rt/IKM2dMNrReepzUCuUcQH843XGjudD/e/LxtMLj7oBcE0jIAeau73UuZxfgi0w95HZqd+co/GWVmPsLdVWj/boombdBkyNqhhtSkhO+lYCZH0/k5xSIxa8lquP5nyHXPx4fw23/A+gT+ctuK5p3+8wIdNxlU42svEgFQ7bRxxSGZx43rA+orOx5CJt9ro0PT71B1DW7iq37x0F/7VEGtolDFSWHWWKeJFprwh+idm+AGSagVv6DWKGlqaIHqvAtVrzcs8FEhdvLVf0UOEuN5GRjr7qfZ4igvL/NtaQGMW/Ti+Ostcmq86WE8GwBrf3dT4oafxua0cNJgYbaeU=
 
 notifications:
     slack:
