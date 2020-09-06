@@ -1,26 +1,24 @@
 language: node_js
+os: linux
+dist: xenial
 node_js:
-    - '7'
-    - '8'
-    - '9'
-    - '10'
-    - '11'
-    - '12'
-
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
 jobs:
-    include:
-        - stage: npm release
-          if: tag IS present
-          node_js: 12
-          deploy:
-              provider: npm
-              email: rogier+npm@konfirm.eu
-              on:
-                  branch: master
-                  tags: true
-              api_key:
-                  secure: AbUzBkFLt2gw/UiC/oHAHthECPjJvo56tULSUzkK/9T4bK0j/kA94XGb74RC6ixOwQ+dzgzm68cbpbUytDcRyeiY1sM178Sr8SlWaGjGwoEb7zCBTinLqXEmqihYkOdsREQh40btSZnsrj1CH2Fvm/Y9TbtqaeQa+SqPvpsM/JOXE/CiWQAA+deXkOn7cSHj+XDkPguqKGzX0evoMLf0jE/DT/eYQZSnwc3rVn2MH8yqNizT8i4ErAeRlAB4NQ6AcMdfg6BD5KOmnv7nB6OO882aykD8VYm8TkECay2UkW64X0aFO6Hb2B2+BkQbuCyYyJH5LFwyAJQEgBiEoRE6nmiR3Pyzitpvuy3gRJ3/swvMusa2X9AC250z/j/7a3W8T1gyLVjGlOV7Hjgfy3lwXqK9dbeyHigEd/l/hwz1n4o4hN3u/pHn1NYy6cb2ml2m5RmiiuYrYMeRJIlhVsSM9RUtzd2PvFRPp5FR5QwmLwmPrJnLXoXN0ttUWtmVA+nU7vWNAA8WTwn3Xh5pcMxVZiVk8BXYJslX4pN04PejUbKT564tAfTNlEKpY+KGuvQnZdBLMH63VqCIHz7zaGYbhbV3sySboe4EtQGjUhEyHPFDy8fG63cTHWq4zZbugyFlXHIWna90IXFdcjvyECu2Qhyz++wBBAXe3tC1itTp9CY=
-
-    notifications:
-        slack:
-            secure: Q55PbGy8fdsRU4uW03UHTbYVVCzQdEacLJ2lP3tpfucIJkJaGO56faHAaB/oNJS4WuqC1/DO1o73P0E77XVM/36nTG0xF9glm8qnk1WGmdeVx3fnMW3mCH0pGJQaCFeHGOQb1Gfj5wonW0tMYmFzArUSQ/BEPDeqO8mn098N9/McywM8FS/QqtcutjbZipOjrxhwcG4Z571ukSSbOdlL/7o/oEZOcRvFNEt4PXNp6iSqNKWIs2xNPXKuxRtRHdH5HRZP7LAqe89hDgsLVVzBbbFwo33pDnH3nBa86P4csHglYT5t4xV/wCMqoKUv0RZORUQRVx1TTkHAcIIYKgDalxlPxpqIU34SFfSzBhvsVxT/rpQBk84STycJFXBA3MBLNCnMaXUlNknLQf6THHl//b2TyoKAUaiJUXw15rHAo+YUjsVGf5Z9S4J5DroYbOkSR7KILtKxccnyGvST0h2rerDU97BHQlJAZv0rkVXqOsfVqlCIqaEVoRikOePD3YAleKsJcuT/CZmuL9tscviGuAducfIbcvy45fauR5raOMeOyHnEGPjgfz90FFKkkUMb4INWcPBmZON1XJEnOCjhuTBUNcb/yL2OA5+JbZpS8inTRZ4Z1M6kYp8xA+clkQ8qo02hkMoCYKL6ekVEvBdr1G46Kax1DYaFIna2sdI6SzY=
+  include:
+    - stage: npm release
+      if: tag IS present
+      node_js: 14
+      deploy:
+        provider: npm
+        email: rogier+npm@konfirm.eu
+        on:
+          branch: master
+          tags: true
+        api_key:
+          secure: P1100102H09QtD6qcm/1vkU5/jQ4i58V7zN4PghrwmV3QYRw8mCRU+vrcVvhVCrmbrvZB1nX4ug439FtjfxpnvPg2ebA6tdOIH0clrEUOxSZgs99qsU3UzyfWoweVEd/zg1yhPzDvy/EXuNLB60F8KGsu7o+AiCZoZkcmiIsZ7UeRUusTE3AvzgMaThdt5i94+kg6pIRwLpj3VKMwGnv9aRsMP35KNmC9vu4nD3b0BPxSdu52pL5qxlz0LPeB6dYCMbtxEFX9U8c0cTYKuXpsoJH7RwLO7ZsDzKKw+HayORK8kjsym5594+a1Y1RvysWABGn+82O19QQQymq3gbPxSYq5QD/edwgLFoz7vN0L6/tE7jhHUrcHr101eAKYuNAuCs8HTd7CwFLjsZYekaFlARqJ9Yu+wiyygSJ+JnRLpGUsAoecx0rCChUr4BSHfSJa+dwMSOJtQQ7jCXCWQr1l21/vMpYia5HIokvVh6kZFhBq6lXaZ+VPAQRu7O1YSuyhQtHw746+4SB1XjohQtPzQaiLACo8gPSFtFs7usuO87W50IDcNniExh6qunFDvNQeSn3jwjuyX+JFlrIMB7T3i4Y02SSQlDZMUSd3A5mOjS1ja8KxbRnvroa9Mxlr9PMui1CWn2fOsEonxSZugK096HoW4+g/eWL772VRFMtkV4=
